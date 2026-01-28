@@ -2,11 +2,11 @@ package provaEsameDnD;
 
 public class Guerriero extends SchedaPersonaggio implements Melee {
     // attributo aggiuntivo rispetto a SchedaPersonaggio
-    protected int valoreForza;
+    protected double valoreForza;
 
 
-    public Guerriero(String nome,int valoreForza) {
-        super(nome);
+    public Guerriero(String nome,int valoreForza, double vita) {
+        super(nome, vita);
         this.valoreForza = valoreForza;
     }
 

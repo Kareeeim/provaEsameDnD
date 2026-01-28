@@ -3,8 +3,8 @@ package provaEsameDnD;
 public class Ladro extends SchedaPersonaggio implements Melee {
     protected String trauma;
 
-    public Ladro(String nome, String trauma) {
-        super(nome);
+    public Ladro(String nome, String trauma, double vita) {
+        super(nome, vita);
         this.trauma = trauma;
     }
 
